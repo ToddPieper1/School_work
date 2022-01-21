@@ -12,7 +12,7 @@ int main() {
     string adj1, noun1, verb1, adv1, adj2, noun2, noun3, adj3, verb2, adv2, verb3, adj4;
 
     //Begin taking them one by one
-    cout << "(1/10) Give me an adjective: ";
+    cout << "(1/12) Give me an adjective: ";
     cin >> adj1;
 
     cout << "(2/12) And then a noun: ";
@@ -53,7 +53,7 @@ int main() {
     "He " + verb1 + " " + adv1 + "through the large tunnel that led to its " + adj2 + " " + noun2 + "\n"
     "I got some peanuts and passed them through the cage to a gigantic gray " + noun3 + "\n"
     "towering above my head. Feeding that animal made me hungry. I went to get a " + adj3 + " scoop\n"
-    "of ice cream. It filled my stomach. Afterwards I had to" +verb2+ +" " + adv2 + " to catch our bus.\n"
+    "of ice cream. It filled my stomach. Afterwards I had to " +verb2+ +" " + adv2 + " to catch our bus.\n"
     "When I got home I " +verb3 + " my mom for a " +adj4 + " day at the zoo.";
 
     //Always return 0 for int main
