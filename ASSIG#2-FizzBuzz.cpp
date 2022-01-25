@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
-
+//Todd Pieper
+//Forgot to include my own name yikes, and space out the for loop items for readability
 int main() {
 
-    for (int i=1;i<101;i++) {
+    for (int i=1; i<101; i++) {
         //Nest some if statements since it would check them all anyway if they weren't
 
         if (i % 3 ==0) { //If the remainder is 0, it is divisible by 3
